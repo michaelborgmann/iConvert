@@ -11,7 +11,6 @@
 		4C4606291CB9486E004FE46C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4606281CB9486E004FE46C /* AppDelegate.m */; };
 		4C46062C1CB9486E004FE46C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C46062B1CB9486E004FE46C /* ViewController.m */; };
 		4C46062F1CB9486E004FE46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C46062D1CB9486E004FE46C /* Main.storyboard */; };
-		4C4606321CB9486E004FE46C /* iConvert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C4606301CB9486E004FE46C /* iConvert.xcdatamodeld */; };
 		4C4606341CB9486E004FE46C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4606331CB9486E004FE46C /* Assets.xcassets */; };
 		4C4606371CB9486E004FE46C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4606351CB9486E004FE46C /* LaunchScreen.storyboard */; };
 		4C4606421CB9486E004FE46C /* iConvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4606411CB9486E004FE46C /* iConvertTests.m */; };
@@ -43,7 +42,6 @@
 		4C46062A1CB9486E004FE46C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4C46062B1CB9486E004FE46C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4C46062E1CB9486E004FE46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4C4606311CB9486E004FE46C /* iConvert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iConvert.xcdatamodel; sourceTree = "<group>"; };
 		4C4606331CB9486E004FE46C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C4606361CB9486E004FE46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C4606381CB9486E004FE46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				4C4606331CB9486E004FE46C /* Assets.xcassets */,
 				4C4606351CB9486E004FE46C /* LaunchScreen.storyboard */,
 				4C4606381CB9486E004FE46C /* Info.plist */,
-				4C4606301CB9486E004FE46C /* iConvert.xcdatamodeld */,
 				4C4606241CB9486E004FE46C /* Supporting Files */,
 			);
 			path = iConvert;
@@ -276,7 +273,6 @@
 				4C46062C1CB9486E004FE46C /* ViewController.m in Sources */,
 				4C4606291CB9486E004FE46C /* AppDelegate.m in Sources */,
 				4C4606261CB9486E004FE46C /* main.m in Sources */,
-				4C4606321CB9486E004FE46C /* iConvert.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,19 +516,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4C4606301CB9486E004FE46C /* iConvert.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4C4606311CB9486E004FE46C /* iConvert.xcdatamodel */,
-			);
-			currentVersion = 4C4606311CB9486E004FE46C /* iConvert.xcdatamodel */;
-			path = iConvert.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4C4606191CB9486E004FE46C /* Project object */;
 }
